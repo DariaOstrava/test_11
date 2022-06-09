@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+ 
+<body>
+ 
+    <!--header-->
+
+    <header class="header__navigation-border">
+        <div class="header container">
+            <nav class="header__navigation">
+                <a href="index.html" lang="en" class="logo"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
+                <ul class="header__navigation-list">
+                <li class="header__navigation-item"><a href="index.html" class="header__navigation-link">Студия</a></li>
+                <li class="header__navigation-item"><a href="portfolio.html" class="header__navigation-link--active">Портфолио</a></li>
+                <li class="header__navigation-item"><a href="" class="header__navigation-link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="header__contacts">
+                <li class="header__contacts-item">
+                <a href="mailto:info@devstudio.com" class="header__contacts-link">
+                    <svg width="16" height="12" class="header__contacts-icon">
+                    <use href="./img/symbol-defs.svg#mail"></use></svg>info@devstudio.com</a>
+                </li>
+                <li class="header__contacts-item">
+                <a href="tel:0961111111" class="header__contacts-link">
+                    <svg width="10" height="16" class="header__contacts-icon">
+                    <use href="./img/symbol-defs.svg#smartphone"></use></svg>096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <!--main conteiner-->
+    <main>
+ 
+    <!--portfolio-->
+ 
+    <!--List-->
+ 
+    <section class="card-set">
+        <div class="container">
+            <ul class="card-set__navigation-list">
+                 <li class="card-set__navigation-item"><button type="button" class="card-set__button">Все</button></li>
+                 <li class="card-set__navigation-item"><button type="button" class="card-set__button">Веб-сайты</button></li>
+                 <li class="card-set__navigation-item"><button type="button" class="card-set__button">Приложения</button></li>
+                 <li class="card-set__navigation-item"><button type="button" class="card-set__button">Дизайн</button></li>
+                 <li class="card-set__navigation-item"><button type="button" class="card-set__button">Маркетинг</button></li>
+            </ul>
+        
+ 
+            <h1 class="caption-first card-set__caption-first vissually-hidden">Примеры наших проектов</h1>
+            <ul class="cart-set__list">
+                <li class="cart-set__item">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.1.jpg" width="370" height="294" alt="Веб-сайт для Технокряк">
+                    <p class="cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Технокряк</p>
+                    <p class="cart-set__product">Веб-сайт</p>
+                    </div>
+            
+                </li>
+                <li class="cart-set__item">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.2.jpg" width="370" height="294" alt="Дизайн Orlean vs Golden Star">
+                    <p class="cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Постер <span lang="en">Orlean vs Golden Star</span></p>
+                    <p class="cart-set__product">Дизайн</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.3.jpg" width="370" height="294" alt="Приложение для ресторана">
+                    <p class="cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Ресторан <span lang="en">Seafood</span></p>
+                    <p class="cart-set__product">Приложение</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.4.jpg" width="370" height="294" alt="Маркетинг для проекта Prime">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Проект <span lang="en">Prime</span></p>
+                    <p class="cart-set__product">Маркетинг</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item ">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.5.jpg" width="370" height="294" alt="Приложение для проекта Boxes">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Проект <span lang="en">Boxes</span></p>
+                    <p class="cart-set__product">Приложение</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item ">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.6.jpg" width="370" height="294" alt="Веб-сайт для Inspiration has no Borders">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p lang="en" class="cart-set__name">Inspiration has no Borders</p>
+                    <p class="cart-set__product">Веб-сайт</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item ">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.7.jpg" width="370" height="294" alt="Дизайн для издания Limited Edition">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="cart-set__description">
+                    <p class="cart-set__name">Издание <span lang="en">Limited Edition</span></p>
+                    <p class="cart-set__product">Дизайн</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item ">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.8.jpg" width="370" height="294" alt="Маркетинг для проекта LAB">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                <div class="cart-set__description">
+                        
+                    <p class="cart-set__name">Проект <span lang="en">LAB</span></p>
+                    <p class="cart-set__product">Маркетинг</p>
+                </div>
+    
+                </li>
+                <li class="cart-set__item ">
+                    <div class="cart-set__overlay-container">
+                    <img src="img/img_2.9.jpg" width="370" height="294" alt="Приложение для Growing Business">
+                    <p class="cart-set__text cart-set__overlay-point">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                <div class="cart-set__description">
+                    <p lang="en" class="cart-set__name">Growing Business</p>
+                    <p class="cart-set__product">Приложение</p>
+                </div>
+    
+                </li>
+            </ul>
+            </div>
+        </section>
+    
+</main>
+ 
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-position">
+        <ul class="footer-contact__list">
+            <li class="footer-contact__item"><a href="index.html" lang="en" class="logo"><span class="logo__web">Web</span><span class="logo__studio logo__studio--inverse">Studio</span></a>
+            <li class="footer-contact__item"><address><a href="" class="footer-contact__link"><span class="footer-contact-adress__link">г. Киев, пр-т Леси Украинки, 26</span></a></address></li>
+            <li class="footer-contact__item"><address><a href="mailto:info@example.com" class="footer-contact__link">info@example.com</a></address></li>
+            <li class="footer-contact__item"><address><a href="tel:380991111111" class="footer-contact__link">+38 099 111 11 11</a></address></li>
+        </ul>
+        <div class="follow">
+        <h3  class="caption-third follow--caption-third">Присоединяйтесь</h3>
+        <ul class="media">
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link follow--media-link">
+                <svg width="20" height="20" class="media-icon media-icon__follow">
+                <use href="./img/symbol-defs.svg#instagram"></use></svg>
+                </a>
+            </li>
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка  твитер" class="media-link follow--media-link">
+                <svg width="20" height="20" class="media-icon  media-icon__follow">
+                <use href="./img/symbol-defs.svg#twitter"></use></svg>
+                </a>
+            </li>
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link follow--media-link">
+                <svg width="20" height="20" class="media-icon  media-icon__follow">
+                <use href="./img/symbol-defs.svg#facebook"></use></svg>
+                </a>
+            </li>
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкидин" class="media-link follow--media-link">
+                <svg width="20" height="20" class="media-icon  media-icon__follow">
+                <use href="./img/symbol-defs.svg#linkedin"></use></svg>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div class="contact-form">
+            <form>
+            <b class="contact-form__calling">Подпишитесь на рассылку</b>
+            <label for="email-footer" class="vissually-hidden">Подписка</label>
+            <input type="email" name="email-footer" id="email-footer" placeholder="E-mail" class="contact-form__text"/>
+            <button type="submit" class=" button contact-form__button">Подписаться
+                <svg width="24" height="24" class="contact-form__icon"><use href="./img/symbol-defs.svg#icon-send"></use>
+                </svg>
+            </button>
+            </form>
+        </div>
+    
+    </div>
+
+    
+</footer> 
+ 
+    
+</body>
+</html>
+ 
+

@@ -1,0 +1,57 @@
+ 
+/* Заголовок h1*/
+ 
+.caption-first {
+    $WhiteColor:  var(--white);
+ 
+    @include mixin-caption-first (900, 44px, 1.36, 0.03em);
+    color: $WhiteColor;
+    text-transform: uppercase;
+    max-width: 696px;
+ 
+    display: block;
+    box-sizing: border-box;
+    padding: 0px 45px;
+    margin: 0 auto;
+ 
+    text-align: center; 
+}
+
+
+
+/* Заголовок h2*/
+ 
+
+.caption-second {
+    $MainColor: var(--c212121);
+ 
+    @include mixin-caption-second (700, 36px, 1.16, 0.03em);
+    color: $MainColor;
+    text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    margin: 0px 0px 50px 0px;
+ 
+    text-align: center;
+    
+}
+ 
+/* Заголовок h3*/
+ 
+
+.caption-third {
+    $MainColor: var(--c212121);;
+    
+    @include mixin-caption-third (700, 14px, 1.14, 0.03em, uppercase);
+    color: $MainColor;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+ 
+
+ 
+
+

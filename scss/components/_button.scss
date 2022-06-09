@@ -1,0 +1,15 @@
+/*Общие стили кнопок */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+    background-color: #2196F3;
+    border: none;
+
+    text-align: center;
+    
+    cursor: pointer;
+  
+}

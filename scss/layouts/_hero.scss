@@ -1,0 +1,51 @@
+/* Секция Решения */
+
+.hero-backgraund {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/backgraund.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-color: #2F303A;
+    background-size: contain;
+    background-position: center;
+    }
+
+.hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 200px 0px;
+        margin: 0px auto;
+
+            .hero__button {
+            margin: 30px auto 0px auto;
+            padding: 10px 32px;
+        
+            min-width: 200px;
+        
+            color: var(--white);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.87;
+            letter-spacing: 0.03em;
+        
+            border-radius: 4px;
+        
+            transition-property: box-shadow;
+        
+            &:hover,
+            &:focus  {
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            }
+    }
+}
+
+
+
+
+
+

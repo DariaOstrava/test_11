@@ -1,0 +1,130 @@
+/* Footer */
+
+.footer {
+    background-color: #2F303A;
+    display: block;
+    box-sizing: border-box;
+    padding: 0px 0px 60px 0px;
+    margin-left: 0px;
+    margin-right: auto;
+   
+}
+
+
+
+
+
+/* Адресс в footer */
+
+
+.footer-position {
+    display: flex;
+    position: relative;
+
+    position: relative;
+    
+}
+
+.footer-contact__list {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 53px 70px 0px 0px;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.footer-contact__item {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+
+    &:first-child {
+        margin-bottom: 20px;
+    }
+    
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    
+}
+
+
+
+.footer-contact__link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color:  rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color:  rgba(255, 255, 255, 1);
+}
+
+}
+
+.footer-contact-adress__link {
+    color: var(--white)
+}
+
+/* Подписка в соц сети в футере*/
+
+.follow {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 0px;
+
+    position: absolute;
+    top: 65px;
+    left: 300px;
+    width: 206px;
+    height: 80px;
+}
+
+
+.follow--caption-third {
+    display:block;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+    color: var(--c212121);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.follow--media-link {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: #2196F3;
+}
+}
+
+
+.media-icon__follow {
+    fill: #FFFFFF;
+}
+
+

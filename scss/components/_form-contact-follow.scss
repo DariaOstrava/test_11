@@ -1,0 +1,121 @@
+
+
+/* Форма "Подписка на рассылку" */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+    left: 490px;
+
+    width: 570px;
+    height: 86px;
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+
+.form-footer-position {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+ 
+
+    
+
+}
+
+.contact-form__calling {
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+    text-transform: uppercase;
+}
+
+.contact-form__text {
+    display: block;
+    padding: 0px 15px;
+
+    width: 358px;
+    height: 50px;
+    
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    outline-offset: -1px;
+    border-style: none;
+    border-radius: 4px;
+    background: #2F303A; 
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    
+
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus-within{
+ 
+        outline: 1px solid rgba(255, 255, 255, 0.7);
+        outline-offset: -1px;
+        
+    }
+}
+
+.vissually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    }
+
+
+
+.contact-form__button {
+
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    position: absolute;
+    bottom: 0;
+    right: -110px;
+
+}
+
+.contact-form__icon {
+    fill: #FFFFFF;
+    margin-left: 10px;
+}
+
+
+
+

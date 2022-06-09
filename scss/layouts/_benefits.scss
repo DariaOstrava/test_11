@@ -1,0 +1,66 @@
+/* Преимущества */
+
+.benefits {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 94px 0px 0px 0px;
+}
+
+.benefits__list {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+.benefits__item {
+    display: block;
+    box-sizing: border-box;
+    width: 270px;
+    list-style-type:none;
+    margin-left: 0px;
+    padding: 0;
+
+    &:not(:first-child) {
+        margin-left: 30px;
+    }
+
+    .benefits__rect {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #F5F4FA;
+        list-style-type:none;
+        border-radius: 4px;
+        border: none;
+        padding: 0px;
+        margin: 0px; 
+        width: 270px;
+        height: 120px;
+        
+    }
+
+    .benefits__text {
+        color: #757575;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        box-sizing: border-box;
+        width: 270px;
+        margin: 10px 0px 0px 0px;
+    
+        padding: 0px;
+    
+    }
+
+}
+
+.benefits__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

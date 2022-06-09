@@ -1,0 +1,38 @@
+/* Лого основные характеристики */
+
+.logo {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    padding: 0px; 
+    margin: 0px;
+
+}
+
+.logo__web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--blue);
+}
+
+.logo__studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo__studio--inverse {
+    color: var(--white);
+}
+
+
+
+
+
