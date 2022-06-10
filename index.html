@@ -69,7 +69,7 @@
                 Имя
             </label>
            <input type="text" name="name" id="name" placeholder=" " class="modal-form__text" required/>
-           <svg width="12" height="12" class="form-policy-group__icon">
+           <svg width="12" height="12" class="modal-form__icon">
                 <use href="./img/symbol-defs.svg#icon-name-form"></use>
             </svg>
         </li>
@@ -78,7 +78,7 @@
                 Телефон
             </label>
             <input type="tel" name="tel" id="tel" placeholder=" " class="modal-form__text" required/>
-                <svg width="13" height="13" class="form-policy-group__icon">
+                <svg width="13" height="13" class="modal-form__icon">
                     <use href="./img/symbol-defs.svg#icon-tel-form"></use>
                 </svg>  
         </li> 
@@ -87,7 +87,7 @@
                 Почта
             </label>
             <input type="email" name="email" id="email" placeholder=" " class="modal-form__text" required/>
-                    <svg width="12" height="12" class="form-policy-group__icon">
+                    <svg width="12" height="12" class="modal-form__icon">
                     <use href="./img/symbol-defs.svg#icon-mail-form"></use>
                 </svg>
         </li>
@@ -234,7 +234,7 @@
             <p class="our-team__name">Ольга Репина</p>
             <p class="our-team__post">Frontend Developer</p>
             </div>
-            <ul class="media">
+            <ul class="media our-team--media">
                 <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
@@ -269,7 +269,7 @@
             <p class="our-team__name">Николай Тарасов</p>
             <p class="our-team__post">Marketing</p>
             </div>
-            <ul class="media">
+            <ul class="media our-team--media">
                 <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
@@ -304,7 +304,7 @@
             <p class="our-team__name">Михаил Ермаков</p>
             <p class="our-team__post">UI Designer</p>
             </div>
-            <ul class="media">
+            <ul class="media our-team--media">
                 <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
@@ -394,8 +394,8 @@
             <li class="footer-contact__item"><address><a href="tel:380991111111" class="footer-contact__link">+38 099 111 11 11</a></address></li>
         </ul>
         <div class="follow">
-        <h3  class="caption-third follow--caption-third">Присоединяйтесь</h3>
-        <ul class="media">
+        <p  class="follow__title">Присоединяйтесь</p>
+        <ul class="media follow--media">
             <li class="media__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link follow--media-link">
                 <svg width="20" height="20" class="media-icon media-icon__follow">

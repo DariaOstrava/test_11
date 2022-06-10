@@ -1,13 +1,7 @@
 /*Кнопки фильтра портфолио*/
  
-.card-set {
-    display: block;
-    box-sizing: border-box;
-    margin: auto;
-    padding: 94px 0px;
-}
  
-.card-set__header-navigation-list {
+.card-set__navigation-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +13,7 @@
     
 }
  
-.card-set__header-navigation-item {
+.card-set__navigation-item {
   margin-right: 8px;
   border-radius: 5px;
  

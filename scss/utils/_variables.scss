@@ -2,9 +2,15 @@
 /* Заголовок h1*/
  
 .caption-first {
+
+    // font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.03em;
+
     $WhiteColor:  var(--white);
  
-    @include mixin-caption-first (900, 44px, 1.36, 0.03em);
+    @include mixin-caption-first (Roboto, 900, 44px, 1.36, 0.03em);
     color: $WhiteColor;
     text-transform: uppercase;
     max-width: 696px;
@@ -23,16 +29,22 @@
  
 
 .caption-second {
+
+     // font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+
     $MainColor: var(--c212121);
  
-    @include mixin-caption-second (700, 36px, 1.16, 0.03em);
+    @include mixin-caption-second (Roboto, 700, 36px, 42px, 0.03em);
     color: $MainColor;
-    text-transform: uppercase;
+    text-transform: none;
+    text-align: center;
+
     display: block;
     box-sizing: border-box;
     margin: 0px 0px 50px 0px;
- 
-    text-align: center;
     
 }
  
@@ -40,15 +52,25 @@
  
 
 .caption-third {
-    $MainColor: var(--c212121);;
+
+    // font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+
+    $MainColor: var(--c212121);
     
-    @include mixin-caption-third (700, 14px, 1.14, 0.03em, uppercase);
+    @include mixin-caption-third (Roboto, 700, 14px, 16px, 0.03em);
     color: $MainColor;
     display: block;
     box-sizing: border-box;
     margin-top: 30px;
     margin-bottom: 10px;
     padding: 0;
+
+    text-transform: uppercase;
+
+    
 }
  
 
